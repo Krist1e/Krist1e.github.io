@@ -1,0 +1,182 @@
+.promo-bg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1600px;
+    height: 750px;
+    z-index: 262;
+}
+  
+.promo-black-button {
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.702);
+    opacity: 0.8;
+    position: absolute;
+    left: 556px;
+    top: 551px;
+    width: 226px;
+    height: 55px;
+    z-index: 270;
+}
+
+.promo-white-button {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.278);
+    opacity: 0.702;
+    position: absolute;
+    left: 814px;
+    top: 551px;
+    width: 226px;
+    height: 55px;
+    z-index: 266;
+}
+
+
+
+.promo-center-text {
+    font-size: 90px;
+    font-family: "YesevaOne", Yeseva One Regular;
+    color: rgba(255, 255, 255, 0.922);
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 1px 2px rgba(1, 1, 1, 0.64);
+    position: absolute;
+    left: 299.543px;
+    top: 227.607px;
+    width: 958px;
+    height: 184px;
+    z-index: 277;
+  }
+
+  .about-bg {
+    position: absolute;
+    left: 0px;
+    top: 750px;
+    width: 1600px;
+    height: 718px;
+    z-index: 239;
+}
+
+.about-pattern {
+    opacity: 1;
+    position: absolute;
+    left: 0px;
+    top: 750px;
+    width: 1600px;
+    height: 710px;
+    z-index: 240;
+  }
+
+  .about-dish {
+    position: absolute;
+    left: 739px;
+    top: 805px;
+    width: 621px;
+    height: 625px;
+    z-index: 256;
+  }
+
+  .about-cook {
+    position: absolute;
+    left: 425px;
+    top: 1125px;
+    width: 219px;
+    height: 221px;
+    z-index: 253;
+  }
+
+  .ingredients-bg {
+    position: absolute;
+    left: 0px;
+    top: 1460px;
+    width: 1600px;
+    height: 758px;
+    z-index: 216;
+  }
+
+  .ingredients-text-bg {
+        background-color: rgb(0, 0, 0);
+        opacity: 0.671;
+        position: absolute;
+        left: 815px;
+        top: 1560px;
+        width: 570px;
+        height: 557px;
+        z-index: 219;      
+  }
+
+  .ingredients-wheat {
+    position: absolute;
+    left: 903px;
+    top: 1927px;
+    width: 114px;
+    height: 114px;
+    z-index: 222;
+  }
+
+  .ingredients-paprika {
+    position: absolute;
+    left: 1043px;
+    top: 1927px;
+    width: 114px;
+    height: 114px;
+    z-index: 223;
+  }
+
+  .ingredients-bread {
+    position: absolute;
+    left: 1183px;
+    top: 1927px;
+    width: 114px;
+    height: 114px;
+    z-index: 224;
+  }
+
+  .menu-bg {
+    position: absolute;
+    left: 0px;
+    top: 2214px;
+    width: 1600px;
+    height: 1002px;
+    z-index: 118;
+  }
+
+  .menu-pattern {
+    opacity: 1;
+    position: absolute;
+    left: 0px;
+    top: 2218px;
+    width: 1600px;
+    height: 994px;
+    z-index: 119;
+  }
+  
+  .review-bg {
+    position: absolute;
+    flex: auto;
+    left: 0px;
+    top: 3212px;
+    width: 1600px;
+    height: 758px;
+    z-index: 100;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
