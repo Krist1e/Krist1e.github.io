@@ -1,11 +1,32 @@
-.promo-bg {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 1600px;
-    height: 750px;
-    z-index: 262;
+.header-black{
+  position: relative;
+  width:100%;
+  height:20%;
+  top: -20px;
+  left: 0px
+
 }
+.promo-bg{
+    height:100%;
+    position:absolute;
+    width:100%;
+    top: 0px;
+    left:0px;
+}
+.Logo{
+  position:absolute;
+  font-size: 3vw;
+  font-family: "Yeseva One";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  top: 5%;
+  width: 15%;
+  left:10%;
+  height: 3%;
+  z-index: 287;
+}
+
   
 .promo-black-button {
     border-width: 1px;
@@ -55,9 +76,9 @@
   .about-bg {
     position: absolute;
     left: 0px;
-    top: 750px;
-    width: 1600px;
-    height: 718px;
+    top: 100%;
+    width: 100%;
+    height: 100%;
     z-index: 239;
 }
 
@@ -65,27 +86,27 @@
     opacity: 1;
     position: absolute;
     left: 0px;
-    top: 750px;
-    width: 1600px;
-    height: 710px;
+    top: 100%;
+    width: 100%;
+    height: 100%;
     z-index: 240;
   }
 
   .about-dish {
     position: absolute;
-    left: 739px;
-    top: 805px;
-    width: 621px;
-    height: 625px;
+    left: 46%;
+    top: 113%;
+    width: 41%;
+    height: 73%;
     z-index: 256;
   }
 
   .about-cook {
     position: absolute;
-    left: 425px;
-    top: 1125px;
-    width: 219px;
-    height: 221px;
+    left: 28%;
+    top: 150%;
+    width: 13%;
+    height: 21%;
     z-index: 253;
   }
 
