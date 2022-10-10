@@ -95,38 +95,38 @@ p{
   .about-dish {
      position: relative;
      margin-left: 48%;
-     margin-top: 11%;
+     margin-top: 4%;
      width: 35%;
      height: 55%;
+     z-index: 245;
     }
 
   .about-cok {
     position: relative;
-    left: 28%;
-    top: 30%;
+    margin-left: 26%;
+    margin-top: -47%;
     width: 13%;
     height: 21%;
     z-index: 253;
   }
 
   .ingredients-bg {
+    opacity: 1;
     position: absolute;
     left: 0px;
-    top: 1460px;
-    width: 1600px;
-    height: 758px;
-    z-index: 216;
+    width: 100%;
+    z-index: 240;
   }
 
   .ingredients-text-bg {
         background-color: rgb(0, 0, 0);
         opacity: 0.671;
-        position: absolute;
-        left: 815px;
-        top: 1560px;
-        width: 570px;
-        height: 557px;
-        z-index: 219;      
+        position: relative;
+        left: 51%;
+        margin-top: 8%;
+        width: 36%;
+        height: 73%;
+        z-index: 245;      
   }
 
   .ingredients-wheat {
