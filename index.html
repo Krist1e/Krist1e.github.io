@@ -8,40 +8,62 @@
   <title>Variant 1</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="script" href="script.js" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap" rel="stylesheet">
 </head>
-
 <body>
   <div class="wrapper">
+   <main class="page">
     <header class="header">
+      <div class="container">
       <div class="header_bar">
         <div class="header_logo">LAMBDA</div>
         <div class="header_menu">
           <nav class="header_navigation">
             <ul class="header_navigation_list">
-              <li><text><a href="#home">Home</a><text></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#ingredients">Ingredients</a></li>
-              <li><a href="#menu">Menu</a></li>
-              <li><a href="#reviews">Reviews</a></li>
-              <li><a href="#reservations">Reservations</a></li>
+              <li><a href="#home"class="header_navigation_link">Home</a></li>
+              <li><a href="#about"class="header_navigation_link">About</a></li>
+              <li><a href="#ingredients"class="header_navigation_link">Ingredients</a></li>
+              <li><a href="#menu"class="header_navigation_link">Menu</a></li>
+              <li><a href="#reviews"class="header_navigation_link">Reviews</a></li>
+              <li><a href="#reservations"class="header_navigation_link">Reservations</a></li>
             </ul>
           </nav>
 
         </div>
       </div>
+     </div>
     </header>
     <section id="promo" class="promo_section">
-      <!--<div class="promo_text">
-        the right ingredients <br> for the right food
+      <div class="container">
+        <div class="promo_text">
+          <div class="text">
+          the right ingredients<br>for the right food</div>
+          <div class="text_divider">
+            <img src="images/promo/PromoDecoration.png">  
+          </div>
+          <div class="promo_buttons">
+            <button class="button">BOOK A TABLE</button>
+            <button class="button">SEE THE MENU</button>
+          </div>
+        </div>
       </div>
-      <div class="promo_decoration">
-        <img src="images/promo/decoration.png">
+    </section>
+    <section id="about" class="about_section">
+      <div class="container">
+        <div class="about_dish">
+          <div class="about_cooking">
+            <div class="about_name"></div>
+            <div class="about_divider"></div>
+            <div class="about_text"></div>
+            <div class="about_cook"></div>
+          </div>
+          <div class="about_plate"></div>
+        </div>
       </div>
-      <div class="promo_buttons">
-        <button class="black-button">BOOK A TABLE</button>
-        <button class="white_button">SEE THE MENU</button>
-      </div>
-    </section>-->
+    </section>
+   </main>
   </div>
   <!--<div class="head">
           <img src="images/header/black.png" alt="header-black" class="header-black"> 
