@@ -57,7 +57,7 @@ section {
 }
 .header_logo {
     width: fit-content;
-    margin-left: 78px;
+    margin-left: 1.3%;
     margin-top: 45px;
     font-size: 36px;
     font-family: "Yeseva One";
@@ -105,7 +105,8 @@ section {
   background-image: url("images/promo/bg.png");
 }
 .promo_text{
-  margin-top: 23%;
+  margin-top: 5.5%;
+  line-height: 1.3;
   justify-content: center;
   align-items: center;
 
@@ -115,6 +116,7 @@ section {
   font-family: "Yeseva One";
   color: white;
   text-align: center;
+  margin-bottom: 3%;
 }
 .text_divider{
   margin-top: 2%;
@@ -187,6 +189,7 @@ section {
 
 .about_cook{
   text-align: center;
+  margin-left: 20%;
 }
 
 
