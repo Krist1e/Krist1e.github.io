@@ -201,7 +201,48 @@ section {
   margin-bottom: 2%;
 }
 
+.ingredients_section{
+  background-image: url(images/ingredients/bg.png);
+  z-index: 100;
+}
 
+.ingredients_text_bg{
+  /* background-image: url(images/ingredients/text-bg.png); */
+  background-color: rgba(0,0,0,0.6);
+  width: 70%;
+  z-index: 120;
+  margin-left: 52%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.ingredients_image{
+  margin-left: 16%;
+}
+
+.ingredients_header{
+  text-align: center;
+  font-size: 36px;
+  font-family: "Yeseva One";
+  color: #ffff;
+}
+
+.ingredients_divider{
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.ingredients_text{
+  text-align: center;
+  font-family: "Lato";
+  font-size: 16px;
+  color: #ffff;
+  line-height: 1.6;
+  margin-bottom: 10%;
+  padding-left: 12%;
+  padding-right: 12%;
+}
 
 
 /*body{
