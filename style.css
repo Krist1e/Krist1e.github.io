@@ -244,6 +244,10 @@ section {
   padding-right: 12%;
 }
 
+.menu_section{
+  background-image: url(images/menu/pattern.png);
+}
+
 
 /*body{
   margin:0;
