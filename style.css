@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&family=Lato&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
   min-height: 100%;
@@ -239,7 +240,6 @@ section {
 }
 
 .ingredients_text_bg{
-  /* background-image: url(images/ingredients/text-bg.png); */
   background-color: rgba(0,0,0,0.6);
   width: 70%;
   z-index: 120;
@@ -377,4 +377,141 @@ section {
 
 }
 
+.reservations_section{
+  background-image: url(images/about/pattern.png);
+}
+
+.reservations_container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;  
+}
+
+.reservations_images{
+  display: flex;
+  flex-direction: row;  
+}
+
+.reservations_info{
+  width: 40vw;
+}
+
+.reservations_image{
+  margin-left: 1.5%;
+  margin-right: 2.5%;
+}
+
+.reservations_header{
+  font-size: 36px;
+  font-family: "Yeseva One";
+  color: #cc9900;
+  text-align: center;
+  margin-top: 1.3%;
+  margin-left: 8.7%;
+  margin-right: 0;
+  margin-bottom: 1.7%;
+}
+
+.reservations_divider{
+  text-align: center;
+  margin-top: 1%;
+  margin-left: 9%;
+  padding-bottom: 0.7%;  
+}
+
+.reservations_text{
+  font-family: "Lato";
+  font-size: 15.8px;
+  color: #4c4c4c;
+  text-align: center;
+  padding: 0 5% 0 13.5%;
+  line-height: 1.55;
+  margin-top: 3.5%;
+  margin-bottom: 9%;  
+}
+
+.reservations_button{
+  display: flex;
+  justify-content: center;
+  padding-left: 9%;
+}
+
+.book_button{
+  font-family: 'Open Sans';
+  font-weight: 400;
+  width: 35%;
+  color: white;
+  background-color: #c9a131;
+  font-size: 16px;
+  height: 35px;
+  border: none;
+}
+
+.reservations_edits{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 12%;
+  margin-bottom: 5%;
+}
+
+.edit_column{
+  display: flex;
+  flex-direction: column; 
+  width: 12vw; 
+  margin-right: 2vw;
+}
+ 
+.input_field{
+  margin-bottom: 2vh;
+  width: 100%;
+}
+
+.input_name{
+  font-family: 'Open Sans';
+  font-weight: 700; 
+  font-size: 14px;
+  color:#c9a131;
+}
+
+::placeholder{
+  font-style: italic;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  color: #7c7c7c;
+
+}
+
+.input_elem{
+  margin-top: 3%;
+}
+
+.input_elem input{
+  border: 1px solid #c8c6c6;
+  height: 4vh;
+  width: 100%;
+}
+
+.input_elem input:hover{
+  border: 1px solid #c9a131;
+}
+
+.input_elem select{
+  border: 1px solid #c8c6c6;
+  height: 4vh;
+  width: 100%;
+}
+
+.input_elem select:hover{
+  border: 1px solid #c9a131;
+}
+
+.input_elem input:focus{
+  border: 3px solid #c9a131;
+}
+.input_elem select:focus{
+  border: 3px solid #c9a131;
+}
 
