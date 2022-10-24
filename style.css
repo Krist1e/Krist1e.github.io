@@ -282,18 +282,14 @@ section {
 
 .menu_colomns{
   display: flex;
-  text-align: center;
-  justify-content: center;
+  position: relative;
+  justify-content: space-between;
+  width: 1033px;
   margin-bottom: 5%;
 }
 
-.menu_first_column{
-  margin-left: 10%;
-  margin-right: 18%;
-}
-
 .menu_second_column{
-  margin-left: 9%;
+  margin-right: 5%;
 }
 .menu_header{
   font-size: 36px;
@@ -327,6 +323,16 @@ section {
   border-width: 0.8px;
   border-style: solid;
   border-color: rgb(200, 159, 45);
+}
+
+.menu_divider {
+  padding-top: 1.8%;
+  padding-right: 21%;
+}
+
+.menu_text {
+  padding-right: 10%;
+  padding-left: 0;
 }
 
 .reviews_section{
