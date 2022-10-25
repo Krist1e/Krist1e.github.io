@@ -107,13 +107,18 @@ section {
 }
 
 .header_icons {
-    text-decoration: none;
     padding-top: 41px;
-    color: white;
+    color: rgb(204, 153, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.header_icons a {
+  text-decoration: none;
+  color: rgb(204, 153, 0);
+}
+  
 .promo_section {
   min-height: 100%;
   background-image: url("images/promo/bg.png");
@@ -145,7 +150,12 @@ section {
   padding-bottom: 0.7%;
 }
 
-.button:hover{
+.button1:hover{
+  border-color: white;
+  background-color: rgba(255,255,255, 0.3);
+  opacity: 0.8;
+}
+.button2:hover{
   border-color: white;
   background-color: rgba(255,255,255, 0.3);
   opacity: 0.8;
@@ -292,6 +302,7 @@ section {
   margin-right: 5%;
 }
 .menu_header{
+  
   font-size: 36px;
   font-family: "Yeseva One";
   color: rgb(204, 153, 0);
@@ -315,6 +326,7 @@ section {
 }
 
 .menu_item{
+  width: 100%;
   padding-top: 5%;
 }
 
@@ -489,6 +501,11 @@ section {
 }
 
 .input_elem input{
+  font-style: italic;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  color:  #7c7c7c;
   border: 1px solid #c8c6c6;
   height: 4vh;
   width: 100%;
@@ -509,9 +526,81 @@ section {
 }
 
 .input_elem input:focus{
-  border: 3px solid #c9a131;
+  border: 1px solid #c9a131;
 }
 .input_elem select:focus{
+  outline-style: none;
   border: 3px solid #c9a131;
 }
+
+select {
+  font-style: italic;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  color: #7c7c7c;
+
+}
+
+footer{
+  background-color: black;
+}
+.footer_row{
+  display: flex;
+  padding: 57px 110px 65px 55px;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: rgb(254, 254, 254);
+  text-align: center;
+}
+
+.colortext{
+  color:white;
+}
+.footer_row h1{
+  color: rgb(254, 254, 254);
+  font-size: 21px;
+  font-family: "Yeseva One";
+  font-weight: 100;
+  line-height: 1.143;
+  text-align: center;
+}
+.footer_about_text{
+  width: 100%;
+  color: lightgrey;
+  font-size: 16px;
+  font-family: "OpenSans";
+  font-weight: 100;
+  line-height: 1.5;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.working_hours{
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: lightgrey;
+  line-height: 1.5;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.cards{
+  padding-top: 21%;
+}
+
+.adress{
+  font-size: 16px;
+  font-family: "OpenSans";
+  line-height: 1.5;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.footer_icons a{
+  text-decoration: none;
+  color: white;
+  padding-top: 21%;
+}
+
 

@@ -49,8 +49,8 @@
             <img src="images/promo/PromoDecoration.png" class="promo_divider">  
           </div>
           <div class="promo_buttons">
-            <button class="button1">BOOK A TABLE</button>
-            <button class="button2">SEE THE MENU</button>
+            <button class="button1" onclick="location.href='#reservations';">BOOK A TABLE</button>
+            <button class="button2" onclick="location.href='#menu';">SEE THE MENU</button>
           </div>
         </div>
       </div>
@@ -249,7 +249,8 @@
                 </div>
                 <div class="input_field">
                   <div class="input_name">Date</div>
-                  <div class="input_elem"><input type="date" required placeholder="date *"></div>
+                  <div class="input_elem"><input type="date" required placeholder="date *">
+                  </div>
                 </div>  
               </div>
               <div class="edit_column">
@@ -260,8 +261,8 @@
                 <div class="input_field">
                   <div class="input_name">Party number</div>
                   <div class="input_elem">
-                    <select>
-                      <option value="">party number</option>
+                    <select name="select_party_number" required>
+                      <option hidden>party number</option>
                       <option value="1">1-5 guests</option>
                       <option value="2">5-10 guests</option>
                       <option value="3">more than 10 guests</option>
@@ -270,11 +271,48 @@
                 </div>
               </div>  
             </div>
-            <div class="reservations_button"><button class="book_button">Book now!</button></div>
+            <div class="reservations_button"><button class="book_button" onclick="alert('Reservation made!');">Book now!</button></div>
           </div>  
         </div>
       </div>  
-    </section>  
+    </section> 
+    <footer>
+      <div class="container">
+          <div class="footer_row">
+              <div class="footer_about">
+                  <h1>About Us</h1>
+                  <img src="images/ingredients/IngredientsTextDivider.png">
+                  <div class="footer_about_text"> Lambda's new and expanded Chelsea location <br> represents a truly authentic <span class="colortext"><strong>Greek</strong></span> patisserie, <br> featuring breakfasts of fresh croissants and <br> steaming bowls of café.
+                    <br> Lamda the best restaurant in town</div>
+              </div>
+              <div class="footer_hours">
+                  <h1>Opening Hours</h1>
+                  <img src="images//ingredients/IngredientsTextDivider.png">
+                  <div class="working_hours"><span class="colortext"><b>Mon-Thu:</b></span> 7:00am-8:00pm <br> 
+                    <span class="colortext"><b>Fri-Sun:</b></span> 7:00am-10:00pm</div>
+
+                  <div class="cards">
+                      <i class="fa fa-cc-amex"></i>
+                      <i class="fa fa-cc-paypal"></i>
+                      <i class="fa fa-cc-visa"></i>
+                      <i class="fa fa-cc-discover"></i>
+                  </div>
+              </div>
+              <div class="footer_location">
+                  <h1>Our Location</h1>
+                  <img src="images/ingredients/IngredientsTextDivider.png">
+                  <div class="adress"><b>19th Paradise Street Sitia<br>
+                      128 Meserole Avenue</b></div>
+                  <div class="footer_icons">
+                      <a href="https://facebook.com/" target="_blank" class="fa fa-facebook-f"></a>
+                      <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+                      <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
+                      <a href="" target="_blank" class="fa fa-trello"></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+   </footer> 
    </main>
   </div>
 </body>
