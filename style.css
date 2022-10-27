@@ -295,19 +295,25 @@ section {
   position: relative;
   justify-content: space-between;
   width: 1033px;
+  margin-top: 10.5%;
   margin-bottom: 5%;
 }
 
 .menu_second_column{
-  margin-right: 5%;
+  width: 42%;
 }
+
+.menu_first_column {
+  width: 41.8%;
+}
+
 .menu_header{
-  
-  font-size: 36px;
-  font-family: "Yeseva One";
-  color: rgb(204, 153, 0);
-  line-height: 0.667;
-  padding: 28% 20% 5% 0;
+  text-align: center;
+    font-family: "Yeseva One";
+    font-weight: 100;
+    font-size: 36px;
+    color: rgb(204, 153, 0);
+    line-height: 0.667;
 }
 
 .menu_firstline{
@@ -321,31 +327,49 @@ section {
 }
 
 .menu_aboutdish{
-  font-family: "Lato Regular";
+  font-family: "Lato";
   font-size: 16px;
+
+}
+
+.menu_itemdivider img {
+  width: 100%;
+}
+.menu_itemdivider {
+  font-size: 20px;
+  line-height: 0.2;
+  margin-bottom: 2.5%;
 }
 
 .menu_item{
   width: 100%;
-  padding-top: 5%;
+  margin-bottom: 8.5%;
 }
 
 .menu_item_special{
-  margin-top: 5%;
-  border-width: 0.8px;
-  border-style: solid;
-  border-color: rgb(200, 159, 45);
+    background-image: url(images/menu/menu-special.png);
+    background-repeat: no-repeat;
+    justify-content: center;
+    width: 432px;
+    padding: 27px 12px 12px 12px;
+    position: relative;
+    left: -13px;
+    top: -26px;
 }
 
 .menu_divider {
-  padding-top: 1.8%;
-  padding-right: 21%;
+  width: fit-content;
+  margin: 5.5% auto 5.3% auto;
 }
 
-.menu_text {
-  padding-right: 10%;
-  padding-left: 0;
+.salads {
+  margin-top: 16%;
 }
+
+.starters {
+  margin-bottom: 16%;
+}
+
 
 .reviews_section{
   background-image: url(images/review/Rewbg.png);
