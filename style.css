@@ -348,13 +348,16 @@ section {
 
 .menu_item_special{
     background-image: url(images/menu/menu-special.png);
+    background-size: auto;
+    background-position:bottom;
     background-repeat: no-repeat;
     justify-content: center;
     width: 432px;
-    padding: 27px 12px 12px 12px;
+    height: 120%;
+    padding: 26px 12px 9px 12px;
     position: relative;
-    left: -13px;
-    top: -26px;
+    left: -12px;
+    top: -27px;
 }
 
 .menu_divider {
@@ -369,6 +372,8 @@ section {
 .starters {
   margin-bottom: 16%;
 }
+
+
 
 
 .reviews_section{
