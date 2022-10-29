@@ -373,24 +373,31 @@ section {
   margin-bottom: 16%;
 }
 
-
-
-
 .reviews_section{
   background-image: url(images/review/Rewbg.png);
+  flex-basis: 100.5%;
 }
 
 .reviews_text_bg{
-  width: 100%;
+  margin-top: 4px;
+  height: 560px;
+  width: 770px;
   background-color: rgba(0,0,0,0.8);
-  padding-bottom: 15%;
-  padding-top: 12%;
-  padding-left: 5%;
-  padding-right: 10%;
+  background-position: center;
 }
 
 .reviews_text{
   display: flex;
+  justify-content: baseline;
+}
+
+.ingredients_header {
+  padding-top: 10%;
+}
+
+.reviews_divider {
+  text-align: center;
+  margin-top: 2%;
 }
 .reviews_text1{
   font-size: 96px;
@@ -398,23 +405,28 @@ section {
   color: rgba(242, 244, 244, 0.471);
   line-height: 0.469;
   text-align: center;
+  padding-top: 3.4%;
+  padding-left: 3.4%;;
 }
 
 .reviews_text2{
-  font-size: 25px;
+  font-size: 23px;
   font-family: "Gentium Book Basic";
-  line-height: 1.8;
+  text-align: center;
+  line-height: 2;
   color: rgb(221, 224, 223);
   font-weight: bold;
-  text-align: center;
+  padding-left: 1.5%;
+  padding-top: 2%;
+  letter-spacing: 1.6px;
 }
 
 .reviews_text_end{
   color: rgb(221, 224, 223);
   font-family: "Lato Regular";
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 4%;
 
 }
 
@@ -423,8 +435,7 @@ section {
 }
 
 .reservations_container{
-  width: 100%;
-  height: 100%;
+  height: 550px;
   display: flex;
   flex-direction: row;  
 }
@@ -439,8 +450,8 @@ section {
 }
 
 .reservations_image{
-  margin-left: 1.5%;
-  margin-right: 2.5%;
+  margin-left: 1.2%;
+  margin-right: 3.7%;
 }
 
 .reservations_header{
@@ -448,8 +459,7 @@ section {
   font-family: "Yeseva One";
   color: #cc9900;
   text-align: center;
-  margin-top: 1.3%;
-  margin-left: 8.7%;
+  margin-left: 9.2%;
   margin-right: 0;
   margin-bottom: 1.7%;
 }
@@ -467,9 +477,9 @@ section {
   color: #4c4c4c;
   text-align: center;
   padding: 0 5% 0 13.5%;
-  line-height: 1.55;
-  margin-top: 3.5%;
-  margin-bottom: 9%;  
+  line-height: 1.65;
+  margin-top: 2.8%;
+  margin-bottom: 5.8%;
 }
 
 .reservations_button{
@@ -487,6 +497,7 @@ section {
   font-size: 16px;
   height: 35px;
   border: none;
+  margin-left: 4px;
 }
 
 .reservations_edits{
@@ -494,18 +505,18 @@ section {
   flex-direction: row;
   justify-content: center;
   margin-left: 12%;
-  margin-bottom: 5%;
+  margin-bottom: 2.1%;
 }
 
 .edit_column{
   display: flex;
   flex-direction: column; 
-  width: 12vw; 
+  width: 190px; 
   margin-right: 2vw;
 }
  
 .input_field{
-  margin-bottom: 2vh;
+  margin-bottom: 24px;
   width: 100%;
 }
 
@@ -527,6 +538,7 @@ section {
 
 .input_elem{
   margin-top: 3%;
+  width: 194px;
 }
 
 .input_elem input{
@@ -583,6 +595,13 @@ footer{
   text-align: center;
 }
 
+.footer_about {
+  margin-left: 1%;
+}
+
+.footer_about h1 {
+  margin-top: 0;
+}
 .colortext{
   color:white;
 }
@@ -597,39 +616,65 @@ footer{
 .footer_about_text{
   width: 100%;
   color: lightgrey;
-  font-size: 16px;
+  font-size: 19px;
   font-family: "OpenSans";
   font-weight: 100;
-  line-height: 1.5;
+  line-height: 1.25;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 2.7%;
+}
+
+.footer_hours {
+  margin-right: 5%;
+}
+
+.footer_hours h1 {
+  margin-top: 0;
 }
 
 .working_hours{
-  font-size: 16px;
+  font-size: 18px;
   font-family: "OpenSans";
   color: lightgrey;
-  line-height: 1.5;
+  line-height: 1.2;
   text-align: center;
   padding-top: 5%;
 }
 
-.cards{
+.cards {
   padding-top: 21%;
+  margin-left: 7%;
+}
+.cards i{
+  margin-right: 7px;
 }
 
 .adress{
-  font-size: 16px;
+  font-size: 18px;
   font-family: "OpenSans";
-  line-height: 1.5;
+  line-height: 1.4;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 4.5%;
 }
 
+.footer_icons {
+  margin-left: 12px;
+}
 .footer_icons a{
   text-decoration: none;
   color: white;
   padding-top: 21%;
+  margin-right: 8px;
 }
+
+.footer_location h1 {
+  margin-top: 0;
+}
+
+.footer_location {
+  margin-right: 5px;
+
+}
+
 
 
