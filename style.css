@@ -656,6 +656,11 @@ footer{
   text-align: center;
   padding-top: 4.5%;
 }
+.adress a{
+  text-decoration: none;
+  color: white;
+
+}
 
 .footer_icons {
   margin-left: 12px;

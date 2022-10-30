@@ -12,6 +12,21 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap" rel="stylesheet">
   <script src="https://use.fontawesome.com/5042226aea.js"></script>
+  <script>
+    function CheckButton()
+            {
+                var name = document.getElementById('Name').value;
+                var email = document.getElementById('Email').value;
+                var date = document.getElementById('Date').value;
+                var number = document.getElementById('Number').value;
+ 
+                if (name && email && date && number) {
+                    document.getElementById('book_button').disabled = false;
+                } else {
+                    document.getElementById('book_button').disabled = true;
+                }
+            }
+  </script>
 </head>
 <body>
   <div class="wrapper">
@@ -245,23 +260,23 @@
               <div class="edit_column">
                 <div class="input_field">
                   <div class="input_name">Name</div>
-                  <div class="input_elem"><input type="text" required placeholder="your name *"></div>
+                  <div class="input_elem"><input type="text" id="Name" required placeholder="your name *" onchange="CheckButton()"></div>
                 </div>
                 <div class="input_field">
                   <div class="input_name">Date</div>
-                  <div class="input_elem"><input type="date" required placeholder="date *">
+                  <div class="input_elem"><input type="date" id="Date" required placeholder="date *" onchange="CheckButton()">
                   </div>
                 </div>  
               </div>
               <div class="edit_column">
                 <div class="input_field">
                   <div class="input_name">Email</div>
-                  <div class="input_elem"><input type="email" required placeholder="your email *"></div>
+                  <div class="input_elem"><input type="email" id="Email" required placeholder="your email *" onchange="CheckButton()"></div>
                 </div>
                 <div class="input_field">
                   <div class="input_name">Party number</div>
                   <div class="input_elem">
-                    <select name="select_party_number" required>
+                    <select name="select_party_number" id="Number" onchange="CheckButton()" required>
                       <option hidden>party number</option>
                       <option value="1">1-5 guests</option>
                       <option value="2">5-10 guests</option>
@@ -270,8 +285,8 @@
                   </div>
                 </div>
               </div>  
-            </div>
-            <div class="reservations_button"><button class="book_button" onclick="alert('Reservation made!');">Book now!</button></div>
+             </div>
+             <div class="reservations_button"><input id="book_button" class="book_button" type="submit" value="Book now!" disabled = "disabled" onclick="alert('Reservation made!');">
           </div>  
         </div>
       </div>  
@@ -301,8 +316,8 @@
               <div class="footer_location">
                   <h1>Our Location</h1>
                   <img src="images/ingredients/IngredientsTextDivider.png">
-                  <div class="adress"><b>19th Paradise Street Sitia<br>
-                      128 Meserole Avenue</b></div>
+                  <div class="adress"><b><a href="https://www.google.com/maps/">19th Paradise Street Sitia</a><br>
+                    <a href="https://www.google.com/maps/">128 Meserole Avenue</a></b></div>
                   <div class="footer_icons">
                       <a href="https://facebook.com/" target="_blank" class="fa fa-facebook-f"></a>
                       <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
