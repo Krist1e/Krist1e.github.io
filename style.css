@@ -1,6 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&family=Lato&family=Yeseva+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&family=Lato&family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap");
 
 body {
   min-height: 100%;
@@ -22,7 +21,7 @@ section {
   position: relative;
 }
 
-.page{
+.page {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -30,7 +29,7 @@ section {
   flex-direction: column;
 }
 
-.container{
+.container {
   position: relative;
   max-width: 1280px;
   padding: 0px 15px;
@@ -52,35 +51,35 @@ section {
 }
 
 .header_menu {
-    display: flex;
-    justify-content: stretch;
+  display: flex;
+  justify-content: stretch;
 }
 .header_logo {
-    width: fit-content;
-    margin-left: 1.3%;
-    margin-top: 46px;
-    font-size: 36px;
-    font-family: "Yeseva One";
-    color: white;
-    line-height: 0.8;
-    text-align: center;
+  width: fit-content;
+  margin-left: 1.3%;
+  margin-top: 46px;
+  font-size: 36px;
+  font-family: "Yeseva One";
+  color: white;
+  line-height: 0.8;
+  text-align: center;
 }
 
 .header_navigation {
-    margin-bottom: 7,5px;
-    margin-left: 22.5%;
+  margin-bottom: 7, 5px;
+  margin-left: 22.5%;
 }
 
-.header_navigation_link:hover{
+.header_navigation_link:hover {
   border-top: 3px solid white;
 }
 .header_navigation_list {
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 100%;
-    padding-left: 21px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  padding-left: 21px;
 }
 
 .header_navigation_list li {
@@ -90,12 +89,12 @@ section {
   height: 100%;
   margin-left: 23.5px;
   margin-right: 6px;
-  
+
   font-size: 21px;
   width: auto;
 }
 
-.header_navigation_link{
+.header_navigation_link {
   text-decoration: none;
   font-size: 21px;
   color: white;
@@ -107,29 +106,30 @@ section {
 }
 
 .header_icons {
-    padding-top: 41px;
-    color: rgb(204, 153, 0);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding-top: 41px;
+  color: rgb(204, 153, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header_icons a {
   text-decoration: none;
+  margin-right: 50%;
   color: rgb(204, 153, 0);
 }
-  
+
 .promo_section {
   min-height: 100%;
   background-image: url("images/promo/bg.png");
 }
-.promo_text{
+.promo_text {
   margin-top: 5.5%;
   line-height: 1.3;
   justify-content: center;
   align-items: center;
 }
-.text{
+.text {
   padding-top: 2.2%;
   font-size: 90px;
   font-family: "Yeseva One";
@@ -137,11 +137,11 @@ section {
   text-align: center;
   margin-bottom: 2.55%;
 }
-.text_divider{
+.text_divider {
   margin-left: 0.5%;
   text-align: center;
 }
-.promo_buttons{
+.promo_buttons {
   display: flex;
   text-align: center;
 }
@@ -150,14 +150,14 @@ section {
   padding-bottom: 0.7%;
 }
 
-.button1:hover{
+.button1:hover {
   border-color: white;
-  background-color: rgba(255,255,255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   opacity: 0.8;
 }
-.button2:hover{
+.button2:hover {
   border-color: white;
-  background-color: rgba(255,255,255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   opacity: 0.8;
 }
 .button1 {
@@ -168,7 +168,7 @@ section {
   border-style: solid;
   border-color: black;
   color: white;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   margin: 2.8% 1% 0 24.5%;
   width: 23.8%;
   height: 55px;
@@ -182,7 +182,7 @@ section {
   border-style: solid;
   border-color: black;
   color: white;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   margin: 2.8% 1% 0 2.1%;
   width: 23.8%;
   height: 55px;
@@ -192,7 +192,7 @@ section {
   min-height: 100%;
 }
 
-.about_name{
+.about_name {
   font-size: 36px;
   font-family: "Yeseva One";
   color: #cc9900;
@@ -203,7 +203,7 @@ section {
   margin-bottom: 1.7%;
 }
 
-.about_text{
+.about_text {
   font-family: "Lato";
   font-size: 15.8px;
   color: #4c4c4c;
@@ -220,21 +220,21 @@ section {
   justify-content: space-between;
 }
 
-.about_cooking{
+.about_cooking {
   display: flex;
   flex-direction: column;
   margin-top: 3.6%;
   margin-left: 4.9%;
 }
 
-.about_divider{
+.about_divider {
   text-align: center;
   margin-top: 1%;
   margin-left: 9%;
   padding-bottom: 0.7%;
 }
 
-.about_cook{
+.about_cook {
   text-align: center;
   margin-left: 23%;
 }
@@ -244,13 +244,13 @@ section {
   margin-bottom: 2%;
 }
 
-.ingredients_section{
+.ingredients_section {
   background-image: url(images/ingredients/bg.png);
   z-index: 100;
 }
 
-.ingredients_text_bg{
-  background-color: rgba(0,0,0,0.6);
+.ingredients_text_bg {
+  background-color: rgba(0, 0, 0, 0.6);
   width: 70%;
   z-index: 120;
   margin-left: 52%;
@@ -258,24 +258,24 @@ section {
   padding-bottom: 10%;
 }
 
-.ingredients_image{
+.ingredients_image {
   margin-left: 16%;
 }
 
-.ingredients_header{
+.ingredients_header {
   text-align: center;
   font-size: 36px;
   font-family: "Yeseva One";
   color: #ffff;
 }
 
-.ingredients_divider{
+.ingredients_divider {
   text-align: center;
   margin-top: 2%;
   margin-bottom: 4%;
 }
 
-.ingredients_text{
+.ingredients_text {
   text-align: center;
   font-family: "Lato";
   font-size: 16px;
@@ -286,11 +286,11 @@ section {
   padding-right: 12%;
 }
 
-.menu_section{
+.menu_section {
   background-image: url(images/menu/pattern.png);
 }
 
-.menu_colomns{
+.menu_colomns {
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -299,7 +299,7 @@ section {
   margin-bottom: 5%;
 }
 
-.menu_second_column{
+.menu_second_column {
   width: 42%;
 }
 
@@ -307,16 +307,16 @@ section {
   width: 41.8%;
 }
 
-.menu_header{
+.menu_header {
   text-align: center;
-    font-family: "Yeseva One";
-    font-weight: 100;
-    font-size: 36px;
-    color: rgb(204, 153, 0);
-    line-height: 0.667;
+  font-family: "Yeseva One";
+  font-weight: 100;
+  font-size: 36px;
+  color: rgb(204, 153, 0);
+  line-height: 0.667;
 }
 
-.menu_firstline{
+.menu_firstline {
   display: flex;
   font-size: 21px;
   font-family: "Yeseva One";
@@ -326,10 +326,9 @@ section {
   justify-content: space-between;
 }
 
-.menu_aboutdish{
+.menu_aboutdish {
   font-family: "Lato";
   font-size: 16px;
-
 }
 
 .menu_itemdivider img {
@@ -341,23 +340,23 @@ section {
   margin-bottom: 2.5%;
 }
 
-.menu_item{
+.menu_item {
   width: 100%;
   margin-bottom: 8.5%;
 }
 
-.menu_item_special{
-    background-image: url(images/menu/menu-special.png);
-    background-size: auto;
-    background-position:bottom;
-    background-repeat: no-repeat;
-    justify-content: center;
-    width: 432px;
-    height: 120%;
-    padding: 26px 12px 9px 12px;
-    position: relative;
-    left: -12px;
-    top: -27px;
+.menu_item_special {
+  background-image: url(images/menu/menu-special.png);
+  background-size: auto;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  justify-content: center;
+  width: 432px;
+  height: 120%;
+  padding: 26px 12px 9px 12px;
+  position: relative;
+  left: -12px;
+  top: -27px;
 }
 
 .menu_divider {
@@ -373,20 +372,20 @@ section {
   margin-bottom: 16%;
 }
 
-.reviews_section{
+.reviews_section {
   background-image: url(images/review/Rewbg.png);
   flex-basis: 100.5%;
 }
 
-.reviews_text_bg{
+.reviews_text_bg {
   margin-top: 4px;
   height: 560px;
   width: 770px;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   background-position: center;
 }
 
-.reviews_text{
+.reviews_text {
   display: flex;
   justify-content: baseline;
 }
@@ -399,17 +398,17 @@ section {
   text-align: center;
   margin-top: 2%;
 }
-.reviews_text1{
+.reviews_text1 {
   font-size: 96px;
   font-family: "Georgia";
   color: rgba(242, 244, 244, 0.471);
   line-height: 0.469;
   text-align: center;
   padding-top: 3.4%;
-  padding-left: 3.4%;;
+  padding-left: 3.4%;
 }
 
-.reviews_text2{
+.reviews_text2 {
   font-size: 23px;
   font-family: "Gentium Book Basic";
   text-align: center;
@@ -421,40 +420,39 @@ section {
   letter-spacing: 1.6px;
 }
 
-.reviews_text_end{
+.reviews_text_end {
   color: rgb(221, 224, 223);
   font-family: "Lato Regular";
   font-size: 18px;
   text-align: center;
   padding-top: 4%;
-
 }
 
-.reservations_section{
+.reservations_section {
   background-image: url(images/about/pattern.png);
 }
 
-.reservations_container{
+.reservations_container {
   height: 550px;
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
 }
 
-.reservations_images{
+.reservations_images {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
 }
 
-.reservations_info{
+.reservations_info {
   width: 40vw;
 }
 
-.reservations_image{
+.reservations_image {
   margin-left: 1.2%;
   margin-right: 3.7%;
 }
 
-.reservations_header{
+.reservations_header {
   font-size: 36px;
   font-family: "Yeseva One";
   color: #cc9900;
@@ -464,14 +462,14 @@ section {
   margin-bottom: 1.7%;
 }
 
-.reservations_divider{
+.reservations_divider {
   text-align: center;
   margin-top: 1%;
   margin-left: 9%;
-  padding-bottom: 0.7%;  
+  padding-bottom: 0.7%;
 }
 
-.reservations_text{
+.reservations_text {
   font-family: "Lato";
   font-size: 15.8px;
   color: #4c4c4c;
@@ -482,14 +480,14 @@ section {
   margin-bottom: 5.8%;
 }
 
-.reservations_button{
+.reservations_button {
   display: flex;
   justify-content: center;
   padding-left: 9%;
 }
 
-.book_button{
-  font-family: 'Open Sans';
+.book_button {
+  font-family: "Open Sans";
   font-weight: 400;
   width: 35%;
   color: white;
@@ -500,7 +498,7 @@ section {
   margin-left: 4px;
 }
 
-.reservations_edits{
+.reservations_edits {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -508,68 +506,67 @@ section {
   margin-bottom: 2.1%;
 }
 
-.edit_column{
+.edit_column {
   display: flex;
-  flex-direction: column; 
-  width: 190px; 
+  flex-direction: column;
+  width: 190px;
   margin-right: 2vw;
 }
- 
-.input_field{
+
+.input_field {
   margin-bottom: 24px;
   width: 100%;
 }
 
-.input_name{
-  font-family: 'Open Sans';
-  font-weight: 700; 
+.input_name {
+  font-family: "Open Sans";
+  font-weight: 700;
   font-size: 14px;
-  color:#c9a131;
+  color: #c9a131;
 }
 
-::placeholder{
+::placeholder {
   font-style: italic;
   font-weight: 400;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 16px;
   color: #7c7c7c;
-
 }
 
-.input_elem{
+.input_elem {
   margin-top: 3%;
   width: 194px;
 }
 
-.input_elem input{
+.input_elem input {
   font-style: italic;
   font-weight: 400;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 16px;
-  color:  #7c7c7c;
+  color: #7c7c7c;
   border: 1px solid #c8c6c6;
   height: 4vh;
   width: 100%;
 }
 
-.input_elem input:hover{
+.input_elem input:hover {
   border: 1px solid #c9a131;
 }
 
-.input_elem select{
+.input_elem select {
   border: 1px solid #c8c6c6;
   height: 4vh;
   width: 100%;
 }
 
-.input_elem select:hover{
+.input_elem select:hover {
   border: 1px solid #c9a131;
 }
 
-.input_elem input:focus{
+.input_elem input:focus {
   border: 1px solid #c9a131;
 }
-.input_elem select:focus{
+.input_elem select:focus {
   outline-style: none;
   border: 3px solid #c9a131;
 }
@@ -577,16 +574,15 @@ section {
 select {
   font-style: italic;
   font-weight: 400;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 16px;
   color: #7c7c7c;
-
 }
 
-footer{
+footer {
   background-color: black;
 }
-.footer_row{
+.footer_row {
   display: flex;
   padding: 57px 110px 65px 55px;
   justify-content: space-between;
@@ -602,10 +598,10 @@ footer{
 .footer_about h1 {
   margin-top: 0;
 }
-.colortext{
-  color:white;
+.colortext {
+  color: white;
 }
-.footer_row h1{
+.footer_row h1 {
   color: rgb(254, 254, 254);
   font-size: 21px;
   font-family: "Yeseva One";
@@ -613,7 +609,7 @@ footer{
   line-height: 1.143;
   text-align: center;
 }
-.footer_about_text{
+.footer_about_text {
   width: 100%;
   color: lightgrey;
   font-size: 19px;
@@ -632,7 +628,7 @@ footer{
   margin-top: 0;
 }
 
-.working_hours{
+.working_hours {
   font-size: 18px;
   font-family: "OpenSans";
   color: lightgrey;
@@ -645,27 +641,26 @@ footer{
   padding-top: 21%;
   margin-left: 7%;
 }
-.cards i{
+.cards i {
   margin-right: 7px;
 }
 
-.adress{
+.adress {
   font-size: 18px;
   font-family: "OpenSans";
   line-height: 1.4;
   text-align: center;
   padding-top: 4.5%;
 }
-.adress a{
+.adress a {
   text-decoration: none;
   color: white;
-
 }
 
 .footer_icons {
   margin-left: 12px;
 }
-.footer_icons a{
+.footer_icons a {
   text-decoration: none;
   color: white;
   padding-top: 21%;
@@ -678,8 +673,4 @@ footer{
 
 .footer_location {
   margin-right: 5px;
-
 }
-
-
-
